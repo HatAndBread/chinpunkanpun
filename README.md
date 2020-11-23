@@ -19,7 +19,7 @@ for(let i = 0; i < 100; i++){
 
 Output...
 ```
-Why do boats win cellos?
+Mountie O'Teale's thesauruses will crawl if he doesn't fascinate the circle in moderation.
 Matthew McConaughey insists on tuna in Zambia.
 Will you teach the smile that believed Olivia's photos?
 Elisabeth Bergner's drawings will disappear if he doesn't bless the king in person.
