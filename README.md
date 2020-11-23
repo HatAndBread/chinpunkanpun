@@ -1,4 +1,4 @@
-# A random gibberish generator in JavaScript.
+# A random gibberish generator
 
 Why? Database seeding, language games, just for fun?
 
