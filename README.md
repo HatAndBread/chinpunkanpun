@@ -4,6 +4,10 @@ Why? Database seeding, language games, just for fun? Bug reports and contributio
 
 # Example
 
+```
+npm install gobbledygook
+```
+
 In your code...
 ```javascript
 const g = require('gobbledygook');
