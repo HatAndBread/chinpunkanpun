@@ -1,10 +1,10 @@
 # A random gibberish generator
 
-Why? Database seeding, language games, just for fun?
+Why? Database seeding, language games, just for fun? Bug reports and contributions very welcome.
 
 # Example
 
-In JavaScript...
+In your code...
 ```javascript
 const g = require('gobbledygook');
 
@@ -116,3 +116,68 @@ You are sternly intimidating him.
 The nation sails away when strawberries fall.
 I am going to imitate the frantic exercise.
 ```
+
+# Get individual words
+
+```javascript
+g.getWord(g.adjective);
+// returns 'bewildered'
+
+g.getWord(g.singularPronounBe);
+// returns 'she is'
+
+g.getWord(g.simplePluralIntransitive);
+// returns 'sneeze'
+```
+
+Available word types
+```
+  adjective
+  person
+  place
+  simplePluralIntransitive
+  simplePluralTransitive
+  intransitiveContinuous
+  simpleSingularIntransitive
+  simpleSingularTransitive
+  pastTransitive
+  pastIntransitive
+  pluralNoun
+  singularNoun
+  uncountableNoun
+  possessivePronoun
+  transitiveContinuous
+  relation
+  adverb
+  pluralPronoun
+  pluralPronounBe
+  pluralPronounObject
+  singularPronoun
+  singularPronounBe
+  singularPronounObject
+  personPossessive
+  positionPrep
+  prepPhrase
+```
+
+# Add sentence structures
+
+```javascript
+g.addStructure(
+  [
+    'why does',
+    possessivePronoun,
+    uncountableNoun,
+    simplePluralTransitive,
+    pluralNoun,
+    'if',
+    possessivePronoun,
+    singularNoun,
+    simpleSingularTransitive,
+    singularNoun
+  ]
+);
+```
+
+
+
