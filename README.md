@@ -1,6 +1,7 @@
 # A random gibberish generator
 Why? Database seeding, language games, just for fun? Bug reports and contributions very welcome.
 'Chinpunkanpun' is a Japanese word meaning 'mumbo jumbo' / 'gibberish'.
+Play with a working example here: <a href="https://brassy-glimmer-buckthornpepperberry.glitch.me/">Chinpunkanpun example</a>
 
 # Example
 
