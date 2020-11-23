@@ -124,13 +124,13 @@ I am going to imitate the frantic exercise.
 # Get individual words
 
 ```javascript
-c.getWord(g.adjective);
+c.getWord(c.adjective);
 // returns 'bewildered'
 
-c.getWord(g.singularPronounBe);
+c.getWord(c.singularPronounBe);
 // returns 'she is'
 
-c.getWord(g.simplePluralIntransitive);
+c.getWord(c.simplePluralIntransitive);
 // returns 'sneeze'
 ```
 
