@@ -68,5 +68,3 @@ module.exports = {
   positionPrep: positionPrep,
   prepPhrase: prepPhrase
 };
-
-console.log(sentence());
