@@ -1,19 +1,19 @@
 # A random gibberish generator
-
 Why? Database seeding, language games, just for fun? Bug reports and contributions very welcome.
+'Chinpunkanpun' is a Japanese word meaning 'mumbo jumbo' / 'gibberish'.
 
 # Example
 
 ```
-npm install gobbledygook
+npm install chinpunkanpun
 ```
 
 In your code...
 ```javascript
-const g = require('gobbledygook');
+const c = require('chinpunkanpun');
 
 for(let i = 0; i < 100; i++){
-  console.log(g.sentence());
+  console.log(c.sentence());
 }
 ```
 
@@ -124,13 +124,13 @@ I am going to imitate the frantic exercise.
 # Get individual words
 
 ```javascript
-g.getWord(g.adjective);
+c.getWord(g.adjective);
 // returns 'bewildered'
 
-g.getWord(g.singularPronounBe);
+c.getWord(g.singularPronounBe);
 // returns 'she is'
 
-g.getWord(g.simplePluralIntransitive);
+c.getWord(g.simplePluralIntransitive);
 // returns 'sneeze'
 ```
 
@@ -167,18 +167,18 @@ Available word types
 # Add sentence structures
 
 ```javascript
-g.addStructure(
+c.addStructure(
   [
     'why does',
-    g.possessivePronoun,
-    g.uncountableNoun,
-    g.simplePluralTransitive,
-    g.pluralNoun,
+    c.possessivePronoun,
+    c.uncountableNoun,
+    c.simplePluralTransitive,
+    c.pluralNoun,
     'if',
-    g.possessivePronoun,
-    g.singularNoun,
-    g.simpleSingularTransitive,
-    g.singularNoun
+    c.possessivePronoun,
+    c.singularNoun,
+    c.simpleSingularTransitive,
+    c.singularNoun
   ]
 );
 ```
