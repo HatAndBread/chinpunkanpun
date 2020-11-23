@@ -166,15 +166,15 @@ Available word types
 g.addStructure(
   [
     'why does',
-    possessivePronoun,
-    uncountableNoun,
-    simplePluralTransitive,
-    pluralNoun,
+    g.possessivePronoun,
+    g.uncountableNoun,
+    g.simplePluralTransitive,
+    g.pluralNoun,
     'if',
-    possessivePronoun,
-    singularNoun,
-    simpleSingularTransitive,
-    singularNoun
+    g.possessivePronoun,
+    g.singularNoun,
+    g.simpleSingularTransitive,
+    g.singularNoun
   ]
 );
 ```
